@@ -1,1 +1,0 @@
-The rules are simple. Just turn all squares to red.
