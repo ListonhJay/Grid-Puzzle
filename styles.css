@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#box-outline {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: 300px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+#div-container {
+  background-color: white;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  border-bottom: solid black 1px;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.squares-container {
+  display: flex;
+  gap: 8px
+}
+
+.squares {
+  width: 50px;
+  height: 50px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+#screen-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+}
+
+p {
+  display: none;
+  color: red;
+  font-size: 25px;
+}
